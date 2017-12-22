@@ -65,7 +65,7 @@
 
 (defun etab--compare-group (tokens tokens-group)
   "Return mean similarity between the given TOKENS list and items in TOKENS-GROUP"
-  (let ((scores (-map (-cut etab-compare tokens <>) tokens-group)))
+  (let ((scores (-map (-cut etab--compare tokens <>) tokens-group)))
     (/ (-sum scores) (length scores))))
 
 (defun etab--classify (tokens tokens-groups)
