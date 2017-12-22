@@ -5,7 +5,7 @@
 ;; Author: Abhinav Tushar <lepisma@fastmail.com>
 ;; Version: 0.0.1
 ;; Package-Requires: ((dash "2.13.0") (dash-functional "2.13.0") (f "0.19.0") (org-cliplink) (s "1.12.0") (stem-english) (emacs "25"))
-;; URL: https://github.com/lepisma/etab.el
+;; URL: https://github.com/lepisma/etab
 
 ;;; Commentary:
 
